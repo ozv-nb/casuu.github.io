@@ -346,7 +346,7 @@ p {
   text-shadow: none;
 }
 .txt-subscription {
-  margin-top: 21px;
+  margin-top: 27px;
   margin-left: 25px;
   float: left;
   color: #262c46;
@@ -484,6 +484,13 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .section.yellow.form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section.main-img {
+    padding-top: 60px;
+  }
   .grey-heading {
     text-shadow: none;
   }
@@ -507,6 +514,20 @@ p {
     padding-left: 5px;
     font-size: 18px;
     line-height: 24px;
+    text-shadow: none;
+  }
+  .img-2 {
+    margin-top: 0px;
+  }
+  .img-holidays.forsp {
+    margin-top: -20px;
+  }
+  .txt-head {
+    text-shadow: none;
+  }
+  .txt-head2 {
+    font-size: 22px;
+    line-height: 28px;
     text-shadow: none;
   }
 }
@@ -541,6 +562,9 @@ p {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  .section.main-img {
+    padding-top: 30px;
+  }
   .txt-catch {
     text-shadow: none;
   }
@@ -560,18 +584,32 @@ p {
     text-shadow: none;
   }
   .img-sp-1 {
+    width: 60%;
     margin: 10px auto;
   }
   .img-sp-2 {
+    width: 80%;
     margin: 10px auto;
   }
   .img-sp-3 {
+    width: 70%;
     margin: 10px auto;
   }
   .img-logo {
     display: block;
     margin-right: auto;
     margin-left: auto;
+  }
+  .img-holidays.forsp {
+    margin-top: 10px;
+    float: none;
+  }
+  .txt-head {
+    text-shadow: none;
+  }
+  .txt-head2 {
+    line-height: 32px;
+    text-shadow: none;
   }
 }
 @media (max-width: 479px) {
@@ -629,8 +667,7 @@ p {
     padding-left: 14px;
   }
   .navbar {
-    padding-right: 3px;
-    padding-left: 3px;
+    padding: 16px 3px;
   }
   .brand {
     margin-top: 0px;
@@ -649,6 +686,13 @@ p {
     padding-top: 47px;
     padding-bottom: 47px;
   }
+  .section.grey.ver2 {
+    padding-top: 24px;
+  }
+  .section.yellow.form {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
   .section.message {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -656,6 +700,13 @@ p {
   .section.footer {
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+  .section.intro {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .section.main-img {
+    padding-top: 0px;
   }
   .grey-heading {
     font-size: 18px;
@@ -688,6 +739,9 @@ p {
     line-height: 24px;
     text-shadow: none;
   }
+  .txt-subscription {
+    margin-top: 5px;
+  }
   .txt-smallcopy {
     font-size: 23px;
     text-shadow: none;
@@ -701,19 +755,26 @@ p {
     padding-right: 8px;
     padding-left: 8px;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 24px;
     font-weight: 400;
     text-shadow: none;
   }
+  .link-block.w--current {
+    display: block;
+    float: none;
+  }
   .img-sp-1 {
+    width: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .img-sp-2 {
+    width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .img-sp-3 {
+    width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -721,6 +782,20 @@ p {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    float: none;
+    text-align: center;
+  }
+  .img-holidays.forsp {
+    margin-top: 10px;
+    float: none;
+  }
+  .txt-head {
+    text-shadow: none;
+  }
+  .txt-head2 {
+    font-size: 22px;
+    line-height: 26px;
+    text-shadow: none;
   }
 }
 
